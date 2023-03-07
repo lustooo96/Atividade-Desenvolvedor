@@ -4,7 +4,7 @@ function fatorial(numeroFatorial) {
   if (numeroFatorial === 0 || numeroFatorial === 1) return 1;
   else if (numeroFatorial < 0) return null;
 
-  for (i = 1; i <= numeroFatorial; i++) {
+  for (let i = 1; i <= numeroFatorial; i += 1) {
     numeroComResultadoDoFatorial *= i;
   }
 
